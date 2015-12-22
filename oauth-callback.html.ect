@@ -1,0 +1,13 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+  function callback(data) {
+    window.opener.require('dom.env').trigger('salesforceAuthorization', data);
+    window.close();
+  }
+  callback(<%- @data %>);
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "node-fullstack-riot-salesforce",
+  "version": "0.1.0",
+  "description": "A toolkit to build composable nodejs,riotjs,salesforce-api dom,http,microservice platforms",
+  "author": "Brian Takita <brian.takita@gmail.com>",
+  "contributors": [],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/btakita/node-fullstack-riot-salesforce"
+  },
+  "bugs": {
+    "url": "https://github.com/btakita/node-fullstack-riot-salesforce/issues"
+  },
+  "keywords": [
+    "node-fullstack-riot-salesforce",
+    "node",
+    "fullstack",
+    "riot",
+    "riotjs",
+    "salesforce"
+  ],
+  "dependencies": {
+    "node-fullstack-riot": "^0.1.0",
+    "riot": "*",
+    "riot-cell": "*",
+    "riotcontrol": "*"
+  },
+  "devDependencies": {},
+  "analyze": true,
+  "license": "Apache"
+}
