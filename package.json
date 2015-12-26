@@ -1,6 +1,6 @@
 {
   "name": "node-fullstack-riot-salesforce",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A toolkit to build composable nodejs,riotjs,salesforce-api dom,http,microservice platforms",
   "author": "Brian Takita <brian.takita@gmail.com>",
   "contributors": [],
