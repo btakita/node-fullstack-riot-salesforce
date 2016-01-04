@@ -12,11 +12,11 @@ var SalesforceStore = function(env, params) {
   console.log(logPrefix);
   env.riot.observable(this);
   var self = this
-    , cell = env.cell
+    , Cell = env.Cell
     , deepEqual = env.deepEqual
     , hashToQuery = env.hashToQuery
-    , isLoggedIn = cell()
-    , salesforceAuthorizationData = cell().on('set', isLoggedInRefresh)
+    , isLoggedIn = Cell()
+    , salesforceAuthorizationData = Cell().on('set', isLoggedInRefresh)
     , oauthData = {
         client_id: params.client_id,
         redirect_uri: params.redirect_uri

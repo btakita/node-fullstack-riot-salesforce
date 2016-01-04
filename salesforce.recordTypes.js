@@ -6,13 +6,13 @@ module.exports = function(env) {
   return recordTypes;
 };
 function load(env) {
-  var cell = env.cell
+  var Cell = env.Cell
     , xhrGetSalesforceQuery = require('./xhr.getSalesforceQuery')
     , query = 'SELECT Id,Name FROM RecordType'
     , isLoggedIn
     , logPrefix = 'salesforce/salesforce.recordTypes'
     ;
-  recordTypes = cell();
+  recordTypes = Cell();
   recordTypes.remember = remember;
   recordTypes.forget = forget;
   function remember() {
